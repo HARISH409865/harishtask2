@@ -1,0 +1,37 @@
+<div class="container">
+    <div class="title">Asset Introduction</div>
+    <div class="container_content">
+        <div class="options">
+            <div class="option" *ngFor="let dataModel of dataModels" (click)="display(dataModel.title)">
+                {{dataModel.title}}
+            </div>
+        </div>
+        <div class="content">
+            <div class="content_title">{{dataModel.title}}</div>
+            <br>
+            <div class="description">{{dataModel.description}}</div>
+            <br><br>
+            <div class="details">
+                <div class="right_details">
+                    <div>Issue Time: {{dataModel.issueTime}}</div>
+                    <div>Token Full Name: {{dataModel.tokenFullName}}</div>
+                    <div>Symbol: {{dataModel.symbol}}</div>
+                    <div>Total Supply: {{dataModel.totalSupply}}</div>
+                    <div>Circum Supply: {{dataModel.circumSupply}}</div>
+                    <div>Website: {{dataModel.website}}</div>
+                </div>
+                <div class="left_details">
+                    <div>Explorer: {{dataModel.explorer}}</div>
+                    <div>Deposite: {{dataModel.deposite}}</div>
+                    <div>WithDrawals: {{dataModel.withdrawals}}</div>
+                    <div>Trading: {{dataModel.trading}}</div>
+                    <div>Comment: {{dataModel.comment}}</div>
+                    <div>Media: {{dataModel.media}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>

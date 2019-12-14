@@ -1,0 +1,44 @@
+.container{
+ height: 100%;
+ background-color: #000000;
+}
+.head_info_nav1{
+    float: left;
+    list-style-type: none;
+    width: 30%;
+    margin-top: 1%;
+}
+.head_info_nav2{
+    float: right;
+    width: 30%;
+    list-style-type: none;
+    margin-top: 1%;
+}
+
+.head_info_nav2_list{
+    display: inline-block;
+    width: calc(100%/3);  
+}
+.head_info_nav1_list{
+    display: inline-block;
+    width: calc(100%/3);
+    text-align: right;
+}
+.head_info_nav1_link{
+    text-decoration: none;
+
+}
+.head_info_nav2_link{
+    text-decoration: none;
+
+    color: #ffffff;
+}
+.part1{
+    color: #ffffff;
+}
+.part2{
+    color:  #006600;
+}
+.part3{
+    color: #990000;
+}
